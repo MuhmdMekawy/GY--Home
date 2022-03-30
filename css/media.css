@@ -1,0 +1,123 @@
+@media (max-width:990px){
+    .welcome .row .left div{
+        left: 120px;
+    }
+    .say .row{
+        flex-direction: column-reverse;
+    }
+    .footer .cont:nth-child(2){
+        padding-right: initial;
+    }
+    .footer .cont:nth-child(3){
+        padding-right: initial;
+    }
+    .welcome {
+        max-height:fit-content;
+    }
+    .welcome .row .left img{
+        object-position:  0 25%;
+    }
+    .gy-who .wel .right{
+        transform: translate(0);
+    }
+    .gy-services .landing .left .one{
+        position: static;
+    }
+    .gy-join .format .row{
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+}
+@media (min-width:600px) and (max-width:990px){
+    .welcome .row .left div{
+        left: 120px;
+    }
+}
+@media (max-width:770px){
+    .navigate .content{
+        flex-direction: column;
+        gap: 20px;
+        z-index: 99999;
+        position: relative;
+    }
+    .nav .content{
+        display: none;
+    }
+    .navigate .content .left .menu{
+        display: block;
+    }
+    .header .owl-theme .owl-dots{
+        position: absolute;
+        right: 36%;
+        top: 90%;
+    }
+    .home-slider .it-one{
+        transform: translateY(110px);
+    }
+    .home-slider .it-one{
+        height: auto;
+        min-height: 600px;
+    }
+    .gy-who .header, .gy-services .header, .gy-course .header{
+    margin-top: 135px;
+}
+    .gy-who .coun{
+        height: initial;
+        background-position: 42% 65%;
+    }
+    .gy-who .coun .content{
+        flex-direction: column;
+        height: auto;
+        padding-top: 53px;
+        padding-bottom: 53px;
+    }
+    .gy-who .coun .content .cont p{
+        margin-bottom: 32px;
+    }
+    .gy-services .landing .left{
+        margin-top: 30px;
+    }
+    .gy-services .landing .left .one{
+        max-width: 100%;
+    }
+    .gy-cour .lan{
+        padding-top: 45px;
+        margin-top: 76px;
+    }
+    .gy-cour .lan .lef .image{
+        margin-top: 35px;
+    }
+    .gy-join .format{
+        margin-top: 120px;
+    }
+    .gy-course .links .content{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:560px){
+    .home-slider .it-one{
+        min-height: 760px;
+        background-position: 40%;
+    }
+    .welcome .row .left .img-shadow{
+        left: 0;
+    }
+    .gy-who .coun{
+        padding: initial;
+    }
+    .gy-who .coun .content{
+        
+        width: 190px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gy-course .links .content{
+        flex-wrap: wrap;
+    }
+
+}
+@media(max-width: 330px){
+    .gy-course .les .cont .top img{
+        max-width: 100%;
+    }
+}
